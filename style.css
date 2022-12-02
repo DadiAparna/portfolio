@@ -1,0 +1,251 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+    padding: 20px 30px 0 500px;
+    background-color: white;
+}
+
+.hamburger {
+    height: 50px;
+
+    padding-top: 20px;
+    display: none;
+}
+
+.nav {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 15px;
+    padding-left: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.links {
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    text-decoration: none;
+
+    display: inline-block;
+    align-items: right;
+    font-size: 15px;
+
+
+}
+
+.links:hover {
+    color: rgb(220, 30, 30);
+}
+
+
+.image {
+
+    position: absolute;
+    padding-top: 130px;
+    padding-left: 230px;
+}
+
+
+.profile {
+    border-radius: 50%;
+    width: fit-content;
+    height: 240px;
+}
+
+.font {
+    margin-left: 8%;
+    margin-bottom: 14%;
+    padding: 150px 50px 30px 400px;
+}
+
+.font h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    padding-left: 250px;
+}
+
+.font p {
+    font-size: 20px;
+}
+
+
+.Education {
+    position: absolute;
+    top: 430px;
+}
+
+.seperator {
+    margin-left: 200px;
+
+}
+
+.Education h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    padding-left: 770px;
+    position: absolute;
+}
+
+.pragati {
+    position: absolute;
+    width: 12%;
+    margin-left: 290px;
+    margin-top: 120px;
+}
+
+.diploma {
+
+    width: 12%;
+    margin-left: 290px;
+    padding-top: 40%;
+}
+
+.ssc {
+
+    width: 12%;
+    margin-left: 290px;
+    padding-top: 8%;
+}
+
+.Education h2 {
+    position: absolute;
+
+    display: inline-block;
+    margin-left: 450px;
+    margin-top: 60px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.Education p {
+    position: absolute;
+    font-size: medium;
+    margin-left: 450px;
+    width: 100%;
+    margin-top: 82px;
+}
+
+.Education h3 {
+    position: absolute;
+
+    display: inline-block;
+    margin-left: 450px;
+    top: 270px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.p1 {
+    position: absolute;
+    font-size: medium;
+    margin-left: 450px;
+    width: 100%;
+    top: 210px;
+}
+
+
+
+.Education h4 {
+
+    position: absolute;
+
+    display: inline-block;
+    margin-left: 450px;
+    top: 420px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.p2 {
+    position: absolute;
+    font-size: medium;
+    margin-left: 450px;
+    width: 100%;
+    top: 360px;
+}
+
+.skills h1 {
+
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 780px;
+    top: 1000px;
+
+}
+
+
+.buttons {
+
+    border-radius: 50px;
+    width: 200px;
+    height: 45px;
+    margin-top: 580px;
+    margin-left: 130px;
+    font-size: medium;
+    justify-content: space-around;
+}
+
+.buttons:hover {
+    background-color: rgba(73, 18, 211, 0.8);
+    color: white;
+
+
+}
+
+.row-justify-content-centre {
+
+    margin-left: 300px;
+}
+
+.row-justify-content-centre1 {
+    position: absolute;
+    top: 680px;
+    margin-left: 300px;
+}
+
+.contactme h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    padding-left: 730px;
+    position: absolute;
+    top: 1420px;
+
+}
+.contactme p {
+    position: absolute;
+    padding-left: 810px;
+    font-size: larger;
+    font-weight: lighter;
+    padding-top: 290px;
+}
+
+.icons{
+    margin:50px 0px -400px 80px;
+   position: relative;
+ left:600px;
+}
+  
+
+  
+    
