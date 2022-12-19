@@ -10,8 +10,10 @@
     width: 100%;
     z-index: 5;
     text-align: center;
-    padding: 20px 30px 0 500px;
+    padding: 20px 0px 0 500px;
     background-color: white;
+    display: flex;
+    max-width: 100%;
 }
 
 .hamburger {
@@ -27,8 +29,6 @@
     align-items: center;
     justify-content: space-between;
 }
-
-
 
 nav ul li {
     display: inline-block;
@@ -46,14 +46,11 @@ nav ul li {
     display: inline-block;
     align-items: right;
     font-size: 15px;
-
-
 }
 
 .links:hover {
     color: rgb(220, 30, 30);
 }
-
 
 .image {
 
@@ -61,7 +58,6 @@ nav ul li {
     padding-top: 130px;
     padding-left: 230px;
 }
-
 
 .profile {
     border-radius: 50%;
@@ -86,16 +82,11 @@ nav ul li {
     font-size: 20px;
 }
 
-
 .Education {
     position: absolute;
     top: 430px;
 }
 
-.seperator {
-    margin-left: 200px;
-
-}
 
 .Education h1 {
     font-size: 40px;
@@ -162,8 +153,6 @@ nav ul li {
     top: 210px;
 }
 
-
-
 .Education h4 {
 
     position: absolute;
@@ -193,34 +182,95 @@ nav ul li {
 
 }
 
-
-.buttons {
+.python {
 
     border-radius: 50px;
     width: 200px;
     height: 45px;
     margin-top: 580px;
-    margin-left: 130px;
+    margin-left: 390px;
     font-size: medium;
-    justify-content: space-around;
+
 }
 
-.buttons:hover {
-    background-color: rgba(73, 18, 211, 0.8);
+.python:hover {
+    background-color: rgb(8, 8, 107);
+    color: azure;
+}
+
+.html {
+    border-radius: 50px;
+    width: 200px;
+    height: 47px;
+    margin-left: 100px;
+    font-size: medium;
+
+}
+
+.html:hover {
+    background-color: rgb(8, 8, 107);
     color: white;
 
+}
+
+.css {
+
+    border-radius: 50px;
+    width: 200px;
+    height: 45px;
+    margin-left: 100px;
+    font-size: medium;
+}
+
+.css:hover {
+    background-color: rgb(8, 8, 107);
+    color: white;
 
 }
 
-.row-justify-content-centre {
+.js {
 
-    margin-left: 300px;
+    border-radius: 50px;
+    width: 200px;
+    height: 45px;
+    margin-left: 390px;
+    margin-top: 100px;
+    font-size: medium;
 }
 
-.row-justify-content-centre1 {
-    position: absolute;
-    top: 680px;
-    margin-left: 300px;
+.js:hover {
+    background-color: rgb(8, 8, 107);
+    color: white;
+
+}
+
+.react {
+
+    border-radius: 50px;
+    width: 200px;
+    height: 45px;
+    margin-left: 100px;
+    font-size: medium;
+}
+
+.react:hover {
+    background-color: rgb(8, 8, 107);
+    color: white;
+}
+
+.php {
+
+    border-radius: 50px;
+    width: 200px;
+    height: 45px;
+    margin-left: 100px;
+    font-size: medium;
+}
+
+.php:hover {
+    background-color: rgb(8, 8, 107);
+    color: white;
+
 }
 
 .contactme h1 {
@@ -232,20 +282,187 @@ nav ul li {
     top: 1420px;
 
 }
+
 .contactme p {
     position: absolute;
     padding-left: 810px;
     font-size: larger;
     font-weight: lighter;
-    padding-top: 290px;
+    padding-top: 170px;
 }
 
-.icons{
-    margin:50px 0px -400px 80px;
-   position: relative;
- left:600px;
+.icons {
+    margin: 0px 0px -400px 80px;
+    position: relative;
+    left: 600px;
+    top: -120px;
 }
-  
 
-  
+@media screen and (max-width:700px) {
+    .container {
+
+        text-align: center;
+        left: -80px;
+        white-space: nowrap;
+        font-size: larger;
+    }
+
+    .nav {
+        width: 85%;
+        display: flex;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 15px 15px;
+        padding-left: 10px;
+        list-style: none;
+        align-items: center;
+    }
+
+    .links {
+        color: rgb(7, 7, 7);
+        font-weight: bold;
+        text-decoration: none;
+        text-align: left;
+    }
+
+    .image {
+
+        position: absolute;
+        padding-top: 150px;
+        padding-left: 70px;
+    }
+
+    .profile {
+        border-radius: 50%;
+        width: fit-content;
+        height: 180px;
+    }
+
+    .font {
+
+        padding: 140px;
+        padding-left: 200px;
+
+    }
+    .font h1 {
+        font-size: 40px;
+        color: black;
+        font-weight: bold;
+        white-space: nowrap;
+
+    }
+
+    .font p {
+        font-size: 20px;
+        white-space: nowrap;
+        padding-left: 25px;
+    }
+   
     
+    .Education h1 {
+        font-size: 40px;
+        color: black;
+        font-weight: bold;
+        padding-left: 470px;
+        position: absolute;
+    }
+
+    .Education h3 {
+
+        top: 250px;
+
+    }
+
+    .p1 {
+
+        top: 190px;
+    }
+
+    .Education h4 {
+
+
+        top: 390px;
+    }
+
+    .p2 {
+
+        top: 330px;
+    }
+
+    .skills h1 {
+
+        position: absolute;
+
+        padding-left: 480px;
+        top: 980px;
+
+    }
+
+    .python {
+
+        margin-left: 230px;
+    }
+
+    .html {
+
+        margin-left: 480px;
+        top: -42px;
+        position: relative;
+    }
+
+    .css {
+        top: -85px;
+        position: relative;
+        margin-left: 720px;
+        padding-left: 5px;
+
+    }
+
+    .js {
+
+        margin-left: 230px;
+        top: -110px;
+        position: relative;
+
+    }
+
+    .react {
+        margin-left: 480px;
+        top: -156px;
+        position: relative;
+    }
+
+    .php {
+        top: -200px;
+        position: relative;
+        margin-left: 720px;
+    }
+
+    .contactme h1 {
+        top: -100px;
+        position: relative;
+        padding-left: 420px;
+        white-space: nowrap;
+    }
+
+    .contactme p {
+        position: relative;
+        padding-left: 500px;
+        top: -250px;
+        white-space: nowrap;
+    }
+
+    .icons {
+
+        position: relative;
+        left: 300px;
+        top: -580px;
+        height: 40px;
+        width: 40px;
+    }
+
+
+
+}
