@@ -4,59 +4,50 @@
     box-sizing: border-box;
 }
 
-.container {
-
-    position: fixed;
-    width: 100%;
-    z-index: 5;
-    text-align: center;
-    padding: 20px 0px 0 500px;
-    background-color: white;
-    display: flex;
-    max-width: 100%;
-}
-
-.hamburger {
-    height: 50px;
-
-    padding-top: 20px;
-    display: none;
-}
-
-.nav {
-    width: 85%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 10px 15px;
-    padding-left: 30px;
-    list-style: none;
-    align-items: center;
-}
-
-.links {
-    color: rgb(7, 7, 7);
-    font-weight: bold;
-    text-decoration: none;
-
-    display: inline-block;
-    align-items: right;
-    font-size: 15px;
-}
-
-.links:hover {
-    color: rgb(220, 30, 30);
-}
 
 .image {
 
     position: absolute;
     padding-top: 130px;
     padding-left: 230px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 30px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    line-height: 70px;
+
+}
+
+nav ul li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(194, 13, 13);
+}
+
+.hamburger {
+    font-size: 30px;
+    height: 40px;
+    margin-top: 35px;
+    float: right;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check {
+    display: none;
 }
 
 .profile {
@@ -298,34 +289,32 @@ nav ul li {
     top: -120px;
 }
 
+
 @media screen and (max-width:700px) {
-    .container {
 
-        text-align: center;
-        left: -80px;
-        white-space: nowrap;
-        font-size: larger;
+    nav ul li a {
+        display: block;
+        float: right;
+        left: 120px;
+        position: relative;
+        top: -60px;
+        display: none;
+
     }
 
-    .nav {
-        width: 85%;
-        display: flex;
+    .hamburger {
+        display: block;
+        float: left;
+        margin-left: 60px;
+
+        cursor: pointer;
     }
 
-    nav ul li {
-        display: inline-block;
-        margin: 15px 15px;
-        padding-left: 10px;
-        list-style: none;
-        align-items: center;
+    #check {
+        display: block;
     }
 
-    .links {
-        color: rgb(7, 7, 7);
-        font-weight: bold;
-        text-decoration: none;
-        text-align: left;
-    }
+
 
     .image {
 
@@ -346,6 +335,7 @@ nav ul li {
         padding-left: 200px;
 
     }
+
     .font h1 {
         font-size: 40px;
         color: black;
@@ -359,8 +349,8 @@ nav ul li {
         white-space: nowrap;
         padding-left: 25px;
     }
-   
-    
+
+
     .Education h1 {
         font-size: 40px;
         color: black;
@@ -373,6 +363,16 @@ nav ul li {
 
         top: 250px;
 
+    }
+
+    .diploma {
+        top: -20px;
+        position: relative;
+    }
+
+    .ssc {
+        top: -20px;
+        position: relative;
     }
 
     .p1 {
@@ -456,13 +456,83 @@ nav ul li {
 
     .icons {
 
-        position: relative;
-        left: 300px;
-        top: -580px;
         height: 40px;
         width: 40px;
+        top: -600px;
+        position: relative;
+        left: 300px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .icons {
+        margin: 0px 20px 0px 20px;
+        position: relative;
+        top: -220px;
+        left: 400px;
+    }
+}
+
+@media screen and (max-width:250px) {
+    .icons {
+        margin: 0px 10px 0px 20px;
+    }
+}
+
+@media screen and (max-width:220px) {
+    .icons {
+        margin: 20px 4px 0px 7px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .Education h3 {
+        top: 225px;
     }
 
+    .p1 {
+        top: 167px;
+    }
 
+    .Education h4 {
+        top: 360px;
+    }
 
+    .p2 {
+        top: 305px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .Education h2 {
+
+        white-space: nowrap;
+        display: inline-block;
+
+    }
+
+    .Education p {
+
+        margin-top: 93px;
+    }
+
+    .diploma {
+        position: relative;
+        top: 30px;
+    }
+
+    .ssc {
+        position: relative;
+        top: 45px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Education h4 {
+        top: 320px;
+    }
+
+    .p2 {
+        top: 265px;
+    }
 }
