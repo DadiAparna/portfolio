@@ -36,19 +36,16 @@ nav ul li a:hover {
     color: rgb(194, 13, 13);
 }
 
-.hamburger {
+.hamburgerimg {
     font-size: 30px;
-    height: 40px;
+    height: 55px;
     margin-top: 35px;
     float: right;
     cursor: pointer;
-    display: none;
+    display: block;
 
 }
 
-#check {
-    display: none;
-}
 
 .profile {
     border-radius: 50%;
@@ -345,7 +342,7 @@ nav ul li a:hover {
     }
 
     .font p {
-        font-size: 20px;
+        font-size: 25px;
         white-space: nowrap;
         padding-left: 25px;
     }
